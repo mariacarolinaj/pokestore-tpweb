@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'PocketMonk';
+    src: url('./assets/fonts/PocketMonk.ttf') format('truetype');
+}
+
+body {
+    background-color: #e9ebe9f5 !important;
+}
+
+.poketext {
+    font-family: 'PocketMonk', sans-serif;
+}
+
+.icon {
+    width: 50px;
+}
+
+.icon-small {
+    width: 16px;
+    margin: 0 6px 0 8px;
+}
+
+.search {
+    display: flex !important;
+}
+
+#inpup-main-search {
+    width: 75%;
+    margin-right: 16px;
+}
+
+.carousel-image {
+    width: 60vw;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .glyphicon-chevron-left {
+    color: black;
+}
+
+.carousel-control {
+    background-image: none !important;
+    background-color: transparent !important;
+}
+
+.box {
+    border: 12px dotted greenyellow;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.container .row {
+    background-color: white !important;
+}
+
+.wrapping {
+    padding: 14px;
+}
+
+.icon-set {
+    align-items: center;
+    justify-content: center;
+    display: flex !important;
+}

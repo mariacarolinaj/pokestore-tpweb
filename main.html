@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeStore</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./scripts.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 poketext">
+                <h1>PokeStore</h1>
+            </div>
+
+            <div class="col-md-5">
+                <div class="row">
+                    <h3>Seja bem-vindo, treinador!</h3>
+                </div>
+
+                <div class="row">
+                    <form>
+                        <div class="input-group search">
+                            <input type="search" id="inpup-main-search" class="form-control"
+                                placeholder="Pesquise aqui seu próximo Pokemon">
+                            <div>
+                                <button class="btn btn-secondary" type="submit">
+                                    <p>GO</p>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="row">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-md navbar-light bg-light">
+                            <div class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav justify-content-between w-100">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Entrar</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Cadastrar</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Minha conta</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Meus pedidos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="row">Envios feitos de segunda a sexta</div>
+                        <div class="row">Atendimento ao consumidor das 8h as 18h no 0800-111-111</div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="container">
+                            <a href="#">
+                                <img src="./assets/images/icons/sacola2.png" class="icon" alt="Sacola de itens">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="icon-set">
+                <img src="./assets/images/icons/bullbasaur.png" class="icon" alt="Bulbasaur">
+                <img src="./assets/images/icons/pokeball.png" class="icon-small" alt="Pokébola">
+                <img src="./assets/images/icons/charmander.png" class="icon" alt="Charmander">
+                <img src="./assets/images/icons/pokeball.png" class="icon-small" alt="Pokébola">
+                <img src="./assets/images/icons/eevee.png" class="icon" alt="Eevee">
+                <img src="./assets/images/icons/pokeball.png" class="icon-small" alt="Pokébola">
+                <img src="./assets/images/icons/jiggly.png" class="icon" alt="Jigglypuff">
+                <img src="./assets/images/icons/pokeball.png" class="icon-small" alt="Pokébola">
+                <img src="./assets/images/icons/meowth.png" class="icon" alt="Meowth">
+                <img src="./assets/images/icons/pokeball.png" class="icon-small" alt="Pokébola">
+                <img src="./assets/images/icons/pikachu.png" class="icon" alt="Pikachu">
+                <img src="./assets/images/icons/pokeball.png" class="icon-small" alt="Pokébola">
+                <img src="./assets/images/icons/psyduck.png" class="icon" alt="Psyduck">
+                <img src="./assets/images/icons/pokeball.png" class="icon-small" alt="Pokébola">
+                <img src="./assets/images/icons/snorlax.png" class="icon" alt="Snorlax">
+                <img src="./assets/images/icons/pokeball.png" class="icon-small" alt="Pokébola">
+                <img src="./assets/images/icons/squirtle.png" class="icon" alt="Squirtle">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row wrapping">
+            <div class="col-md-3">
+                <div>Explore nossa Pokedex</div>
+                <form>
+                    <div class="form-group">
+                        <label for="selectElemento">Elemento</label>
+                        <select class="form-control" id="selectElemento">
+                            <option>Normal</option>
+                            <option>Fogo</option>
+                            <option>Água</option>
+                            <option>Grama</option>
+                            <option>Elétrico</option>
+                            <option>Gelo</option>
+                            <option>Lutador</option>
+                            <option>Venenoso</option>
+                            <option>Terra</option>
+                            <option>Voador</option>
+                            <option>Psíquico</option>
+                            <option>Inseto</option>
+                            <option>Pedra</option>
+                            <option>Fantasma</option>
+                            <option>Dragão</option>
+                            <option>Sombrio</option>
+                            <option>Aço</option>
+                            <option>Fada</option>
+                        </select>
+
+                        <label for="selectGeracao">Geração</label>
+                        <select class="form-control" id="selectGeracao">
+                            <option>1ª Geração: Pokémon Red, Blue e Yellow</option>
+                            <option>2ª Geração: Pokémon Gold, Silver e Crystal</option>
+                            <option>3ª Geração: Pokémon Ruby, Sapphire e Emerald</option>
+                            <option>4ª Geração: Pokémon Diamond, Pearl e Platinum</option>
+                            <option>5ª Geração: Pokémon Black, White, Black 2 e White </option>
+                            <option>6ª Geração: Pokémon X, Y, Omega Ruby e Alpha Sapphire</option>
+                            <option>7ª Geração: Pokémon Sun, Moon, Ultra Sun e Ultra Moon</option>
+                            <option>8ª Geração: Pokémon Sword e Shield</option>
+                        </select>
+
+                        <label for="selectCategoria">Categoria de item</label>
+                        <select class="form-control" id="selectCategoria">
+                            <option>Pelúcias</option>
+                            <option>Pokébolas</option>
+                            <option>Action figures</option>
+                            <option>Camisas</option>
+                            <option>Mochilas</option>
+                        </select>
+
+                        <label for="input1">$ A partir de</label>
+                        <input type="number" step="any" class="form-control" id="input1">
+                        <label for="input2">$ Até</label>
+                        <input type="number" step="any" class="form-control" id="input2">
+
+                    </div>
+                    <button type="submit" class="btn btn-primary">Buscar</button>
+                </form>
+            </div>
+
+            <div class="col-md-9 box">
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="./assets/images/carousel/1.webp" alt="Pelúcias Pokemon" class="carousel-image">
+                        </div>
+
+                        <div class="item">
+                            <img src="./assets/images/carousel/2-resized.png" alt="Pelúcias Pokemon"
+                                class="carousel-image">
+                        </div>
+
+                        <div class="item">
+                            <img src="./assets/images/carousel/3-resized.png" alt="Pelúcias Pokemon"
+                                class="carousel-image">
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href="#carousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-10">itens</div>
+            <div class="col-md-2">mais comprados</div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</html>
