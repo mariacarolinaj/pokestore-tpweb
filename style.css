@@ -3,6 +3,16 @@
     src: url('./assets/fonts/PocketMonk.ttf') format('truetype');
 }
 
+body {
+    background-image: url("./assets/background/bg.png");
+    background-repeat: repeat;
+}
+
+.site {
+    background-color: white;
+    padding: 0px !important;
+}
+
 .poketext {
     font-family: 'PocketMonk', sans-serif;
     text-align: center;
@@ -134,6 +144,11 @@
     text-align: center;
 }
 
+.see-btn {
+    max-width: 20%;
+
+}
+
 .search-section {
     padding-right: 16px;
 }
@@ -166,6 +181,38 @@
     background-color: #e9ebe97a !important;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
     background-color: #f2f2f2;
     padding: 5px;
+}
+
+.submit {
+    background-color: darkgrey;
+    color: white;
+    width: 60%;
+    border-radius: 18px !important;
+    text-transform: uppercase;
+    margin-bottom: 24px !important;
+    margin-top: 16px;
+}
+
+.footer {
+    background-color: #e9ebe97a !important;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    background-color: #f2f2f2;
+    padding: 5px;
+}
+
+.no-bullet {
+    list-style-type: none;
+}
+
+.menu a {
+    color: red;
+}
+
+.copyright {
+    text-align: center;
+    padding: 24px;
 }
