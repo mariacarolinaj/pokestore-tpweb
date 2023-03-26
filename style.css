@@ -3,10 +3,6 @@
     src: url('./assets/fonts/PocketMonk.ttf') format('truetype');
 }
 
-body {
-    background-color: #e9ebe9f5 !important;
-}
-
 .poketext {
     font-family: 'PocketMonk', sans-serif;
     text-align: center;
@@ -18,8 +14,19 @@ body {
     margin-top: 18%;
 }
 
+.navbar {
+    margin-bottom: 8px !important;
+}
+
+.nav-link {
+    color: red !important;
+    font-family: 'PocketMonk', sans-serif;
+    font-size: large;
+}
+
 .icon {
-    width: 50px;
+    width: 42px;
+    margin-right: 16px;
 }
 
 .icon-small {
@@ -60,18 +67,16 @@ body {
     border-radius: 16px;
 }
 
-.container .row {
-    background-color: white !important;
-}
-
 .wrapping {
     padding: 14px;
 }
 
 .icon-set {
-    align-items: center;
-    justify-content: center;
-    display: flex !important;
+    background-image: url('./assets/images/icons/pokeball.png');
+    height: 32px;
+    background-size: contain;
+    background-repeat: space;
+    margin: 8px 0;
 }
 
 .card img {
@@ -113,11 +118,16 @@ body {
     background: red;
     color: white;
     padding: 8px;
+    margin-top: 0 !important;
 }
 
 .titulo-subsecao {
     color: red;
-    padding: 20px;
+    margin-bottom: 28px;
+    background-color: white;
+    border: 4px solid;
+    margin-top: 8px;
+    border-radius: 40px;
 }
 
 .center {
@@ -146,4 +156,16 @@ body {
     height: 1px;
     background-color: #ccc;
     margin: 20px 0;
+}
+
+.text {
+    margin-top: -16px;
+}
+
+.side {
+    background-color: #e9ebe97a !important;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: #f2f2f2;
+    padding: 5px;
 }
