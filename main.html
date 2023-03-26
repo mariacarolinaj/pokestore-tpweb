@@ -21,9 +21,9 @@
                 <p class="banner">Poke<br>Store</p>
             </div>
 
-            <div class="col-md-5">
+            <div class="col-md-5 section">
                 <div class="row">
-                    <h3>Seja bem-vindo, treinador!</h3>
+                    <h4>Seja bem-vindo, treinador!</h4>
                 </div>
 
                 <div class="row">
@@ -33,7 +33,7 @@
                                 placeholder="Pesquise aqui seu próximo item Pokemon">
                             <div>
                                 <button class="btn btn-secondary" type="submit">
-                                    <p>GO</p>
+                                    <img src="./assets/images/icons/lupa.png" class="search-icon" alt="Pesquisar">
                                 </button>
                             </div>
                         </div>
@@ -108,8 +108,10 @@
 
     <div class="container">
         <div class="row wrapping">
-            <div class="col-md-3">
-                <div>Explore nossa Pokedex</div>
+            <div class="col-md-3 search-section">
+                <div class="poketext">
+                    <h2>Explore nossa Pokedex</h2>
+                </div>
                 <form>
                     <div class="form-group">
                         <label for="selectElemento">Elemento</label>
@@ -155,13 +157,16 @@
                             <option>Mochilas</option>
                         </select>
 
-                        <label for="input1">$ A partir de</label>
+                        <label for="input1">R$ A partir de</label>
                         <input type="number" step="any" class="form-control" id="input1">
-                        <label for="input2">$ Até</label>
+                        <label for="input2">R$ Até</label>
                         <input type="number" step="any" class="form-control" id="input2">
 
                     </div>
-                    <button type="submit" class="btn btn-primary">Buscar</button>
+                    <div class="row center justify-content-center align-items-center">
+                        <button type="submit" class="btn btn-secondary"><b>Buscar</b></button>
+                    </div>
+
                 </form>
             </div>
 
@@ -290,6 +295,10 @@
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div class="row center justify-content-center align-items-center">
+                    <button class="btn btn-secondary"><b>Ver mais</b></button>
                 </div>
             </div>
 

@@ -31,6 +31,10 @@ body {
     display: flex !important;
 }
 
+.search-icon {
+    width: 19px;
+}
+
 #inpup-main-search {
     width: 75%;
     margin-right: 16px;
@@ -91,7 +95,7 @@ body {
 }
 
 .card:hover {
-    color: rgb(220, 64, 64);
+    color: red;
 }
 
 .card img:hover {
@@ -106,4 +110,19 @@ body {
 
 .titulo-subsecao {
     color: red;
+}
+
+.center {
+    text-align: center;
+}
+
+.search-section {
+    padding-right: 16px;
+}
+.search-section label {
+    margin-top: 8px;
+}
+
+.section {
+    padding: 24px;
 }
