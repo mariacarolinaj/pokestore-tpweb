@@ -57,10 +57,6 @@ body {
     margin-right: 16px;
 }
 
-.carousel-image {
-    width: 60vw;
-}
-
 .carousel-control .glyphicon-chevron-right,
 .carousel-control .glyphicon-chevron-left {
     color: black;
@@ -111,9 +107,82 @@ body {
 }
 
 .small {
+    background-size: 200%;
     border: 6px solid transparent !important;
     width: 200% !important;
-    background-size: 200%;
+}
+
+@media (min-width: 801px) {
+    .mobile-view {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .small {
+        width: 100% !important;
+    }
+
+    .mobile {
+        margin-left: 8px !important;
+    }
+
+    .site {
+        display: table !important;
+        margin: 0 16px !important;
+    }
+
+    .desktop-view {
+        display: none !important;
+    }
+
+    .navbar-inverse .navbar-toggle {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-right: 15px;
+    }
+
+    .navbar-inverse {
+        background-color: transparent !important;
+        border-color: transparent !important;
+    }
+
+    .navbar-toggle {
+        background-color: crimson !important;
+        border-color: transparent !important;
+        border-radius: 120% !important;
+        height: 42px !important;
+    }
+
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.635);
+        border-color: transparent !important;
+    }
+
+    .navbar-collapse ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .navbar-collapse li {
+        border-bottom: 1px solid #555;
+    }
+
+    .navbar-collapse li a {
+        color: #fff;
+        padding: 10px 15px;
+        display: block;
+    }
+
+    .nav li a {
+        color: white !important;
+    }
+
+    .box {
+        border: 4px dotted greenyellow;
+    }
 }
 
 .card:hover {
