@@ -9,6 +9,13 @@ body {
 
 .poketext {
     font-family: 'PocketMonk', sans-serif;
+    text-align: center;
+}
+
+.banner {
+    font-size: 60px;
+    line-height: 40px;
+    margin-top: 18%;
 }
 
 .icon {
@@ -61,4 +68,42 @@ body {
     align-items: center;
     justify-content: center;
     display: flex !important;
+}
+
+.card img {
+    width: 100%;
+    max-height: 100%;
+    border: 12px solid transparent;
+    border-image: url(./assets/images/produtos/produto-borda.jpg) 0 round;
+    background-image: url(./assets/images/produtos/produto-borda.jpg);
+    border-radius: 100%;
+    background-position: center;
+}
+
+.card-title, .card-text {
+    text-align: center;
+    font-size: large;
+}
+
+.card {
+    margin: 10px 16px;
+    cursor: pointer;
+}
+
+.card:hover {
+    color: rgb(220, 64, 64);
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.titulo-secao {
+    background: red;
+    color: white;
+    padding: 8px;
+}
+
+.titulo-subsecao {
+    color: red;
 }
