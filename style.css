@@ -84,7 +84,8 @@ body {
     background-position: center;
 }
 
-.card-title, .card-text {
+.card-title,
+.card-text {
     text-align: center;
     font-size: large;
 }
@@ -92,6 +93,12 @@ body {
 .card {
     margin: 10px 16px;
     cursor: pointer;
+}
+
+.small {
+    border: 6px solid transparent !important;
+    width: 200% !important;
+    background-size: 200%;
 }
 
 .card:hover {
@@ -110,6 +117,7 @@ body {
 
 .titulo-subsecao {
     color: red;
+    padding: 20px;
 }
 
 .center {
@@ -119,10 +127,23 @@ body {
 .search-section {
     padding-right: 16px;
 }
+
 .search-section label {
     margin-top: 8px;
 }
 
 .section {
     padding: 24px;
+}
+
+.sub-card {
+    text-align: justify;
+    font-size: medium;
+    margin-left: 24px;
+}
+
+.divider {
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
 }
